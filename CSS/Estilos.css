@@ -27,7 +27,7 @@ body {
     flex-wrap: wrap;
 }
 
-.carta-baixo {
+.carta {
     width: 117px;
     height: 146px;
     background-color: #a7e9af;
@@ -37,9 +37,25 @@ body {
     border: solid  1px green ;
     border-radius: 5px;
     margin: 20px;
+    backface-visibility: hidden;
+    transition: all .5s;
+    transform-style: preserve-3d;
 
 }
-.carta-baixo img {
+.carta-baixo, .carta-aberta {
     height: 100px;
     width: 100px;
+}
+.carta:active{
+    transform: rotateY(180deg);
+}
+
+
+
+
+.escondido {
+    display: none;
+}
+.carta-bobro, .carta-explody, .carta-fiesta, .carta-metal, .carta-rever, .carta-triple, .carta-unicorn {
+
 }
