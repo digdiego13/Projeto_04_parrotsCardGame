@@ -1,7 +1,45 @@
 * {
-box-sizing: box-border;
+box-sizing: border-box;
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topo {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: #75b79e;
+
+}
+.jogo {
+    padding: 0px 5% 5% 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carta-baixo {
+    width: 117px;
+    height: 146px;
+    background-color: #a7e9af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid  1px green ;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.carta-baixo img {
+    height: 100px;
+    width: 100px;
 }
