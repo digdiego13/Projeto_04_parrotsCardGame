@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .titulo{
     font-size: 56px;
@@ -19,6 +20,16 @@ body {
     text-align: center;
     color: #75b79e;
 
+}
+.cronometro {
+    border-radius: 4px;
+    width: 300px;
+    background-color: cornflowerblue;
+}
+.contador {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 .jogo {
     padding: 0px 5% 5% 5%;
@@ -55,7 +66,4 @@ body {
 
 .escondido {
     display: none;
-}
-.carta-bobro, .carta-explody, .carta-fiesta, .carta-metal, .carta-rever, .carta-triple, .carta-unicorn {
-
 }
